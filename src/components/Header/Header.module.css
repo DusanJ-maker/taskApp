@@ -1,0 +1,35 @@
+.mainDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.headerMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 10%; */
+}
+
+nav {
+  width: 80%;
+  background-color: #4d4d4d;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-bottom: 2px solid #404040;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+ul,
+li {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}

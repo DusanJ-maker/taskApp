@@ -1,0 +1,50 @@
+.centralDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 150px;
+}
+
+table,
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table,
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table,
+tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #8e8e8e;
+  color: white;
+}
+
+thead,
+tfoot {
+  background-color: #cbcbcb;
+  color: #3f3f3f;
+}
+
+h2 {
+  color: whitesmoke;
+}
+
+.mainDiv > div > label {
+  color: white;
+}

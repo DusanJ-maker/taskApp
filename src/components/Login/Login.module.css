@@ -1,0 +1,76 @@
+.centralDiv {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.container {
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  max-width: 400px;
+  width: 100%;
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(77, 77, 77);
+}
+
+.buttonLogin {
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+label {
+  margin-top: 20px;
+  margin-bottom: 7px;
+  font-size: 14px;
+  color: rgb(77, 77, 77);
+  font-weight: 600;
+}
+
+.input {
+  padding: 8px;
+  /* width: 100%; */
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  background: #d2d2d2;
+}
+
+.centralDiv button {
+  background: rgb(77, 77, 77);
+  padding: 8px;
+  border: 0;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 25px !important;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.errorMsg {
+  width: 100%;
+  margin-top: 10px;
+  color: red;
+  font-size: 20;
+  text-shadow: none;
+  /* border: 1px solid red;
+	border-radius: 5px; */
+}
